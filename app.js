@@ -24,5 +24,5 @@ app.listen(3000, function() {
 ////////// Code Start Here ///////////
 
 app.get('/', function(req, res) {
-  res.render("home");
+  res.render("home", {par:homeStartingContent});
 });
